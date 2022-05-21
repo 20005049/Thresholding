@@ -34,7 +34,7 @@ import numpy as np
 
 ### Read the Image and convert to grayscale
 
-image=cv2.imread("Tvd.jpg")
+image=cv2.imread("transform.jpg")
 image1=cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)
 
 ### Use Global thresholding to segment the image
